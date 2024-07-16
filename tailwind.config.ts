@@ -20,6 +20,7 @@ const config: Config = {
         slate2: "#CFD0D2",
         eminence: "#992E9D",
         eminence2: "#B73BBE",
+        eminence3: "#F4D6F8",
         woodsmoke: "#434347",
         woodsmoke2: "#595961",
         woodsmoke3: "#686972",
