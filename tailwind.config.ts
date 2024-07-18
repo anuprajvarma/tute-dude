@@ -8,6 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        refine: {
+          "0%": {
+            left: "0%",
+          },
+          "100%": {
+            left: "100%",
+          },
+        },
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -21,12 +31,21 @@ const config: Config = {
         eminence: "#992E9D",
         eminence2: "#B73BBE",
         eminence3: "#F4D6F8",
+        eminence4: "#450D45",
+        eminence5: "#FCF5FE",
+        eminence6: "#7F2781",
         woodsmoke: "#434347",
         woodsmoke2: "#595961",
         woodsmoke3: "#686972",
+        woodsmoke4: "#1B1B1D",
         oragnge: "#FFA50B",
         oragnge2: "#BB5302",
         orannge3: "#FFF4C5",
+        blue: "#9849FF",
+        blue2: "#841EE3",
+      },
+      animation: {
+        "refine-slide": "refine 3s infinite",
       },
     },
   },
