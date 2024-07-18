@@ -4,6 +4,7 @@ import HeroSection from "./component/HeroSec";
 import CoursesSec from "./component/CoursesSec";
 import OverviewSec from "./component/OverviewSec";
 import CompaniesSec from "./component/CompaniesSec";
+import InternshipProgram from "./component/InternProgramSex";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <CoursesSec />
       <OverviewSec />
       <CompaniesSec />
+      <InternshipProgram />
     </main>
   );
 }
