@@ -3,6 +3,7 @@ import Navbar from "./component/NavBar";
 import HeroSection from "./component/HeroSec";
 import CoursesSec from "./component/CoursesSec";
 import OverviewSec from "./component/OverviewSec";
+import CompaniesSec from "./component/CompaniesSec";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <CoursesSec />
       <OverviewSec />
+      <CompaniesSec />
     </main>
   );
 }
